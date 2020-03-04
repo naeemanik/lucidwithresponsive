@@ -1,0 +1,206 @@
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .blue-char {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .banner h1 {
+        font-size: 30px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .banner p {
+        margin-bottom: 26px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .banner .btn {
+        display: block;
+        margin-left: 18%;
+        margin-bottom: 6%;
+    }
+    .banner .mockup {
+        display: none;
+    }
+    .about-long .about-long-img {
+        width: 100%;
+    }
+    .eye-catcher h1 {
+        padding: 48px 0;
+        font-size: 25px;
+    }
+    .eye-catcher .eye-catcher-btn {
+        padding: 36px 0;
+    }
+    .eye-catcher .btn-ghost {
+        margin-bottom: 10px;
+        padding: 10px 34px;
+    }
+    .eye-catcher .btn {
+        font-size: 12px;
+    }
+    .contact .contact-item-box {
+        padding: 0;
+    }
+    .contact .contact-detail {
+        font-size: 14px;
+    }
+    .contact .form {
+        width: 100%;
+        margin-left:0
+    }
+    .contact .form .input {
+        width: 100%;
+    }
+    .contact .form textarea {
+        width: 100%;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner .mockup {
+        display: none;
+    }
+    .about-long .about-long-img {
+        width: 100%;
+    }
+    .eye-catcher h1 {
+        padding: 50px 0;
+        font-size: 24px;
+    }
+    .eye-catcher .eye-catcher-btn {
+        padding: 30px 0;
+    }
+    .eye-catcher .btn {
+        padding: 0px 27px;
+        margin-bottom: 10px;
+    }
+    .contact .contact-item-box {
+        padding: 0; 
+    }
+    .contact .contact-detail {
+        font-size: 14px;
+    }
+    .contact .form {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .contact .form .input {
+        width: 100%;
+        padding: 15px;
+       
+    }
+    .contact .form textarea {
+        width: 100%;
+        height: 210px;
+    }
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .blue-char {
+        margin-bottom: 25px;
+    }
+    .banner h1 {
+        font-size: 34px;
+    }
+    .banner p {
+        margin-bottom: 35px;
+        line-height: 1.4;
+    }
+    .banner .btn {
+        padding: 10px 24px;
+        margin-right: 16px;
+    }
+    .banner .mockup {
+        margin-top: 40px;
+        width: 134%;
+    }
+    .about-long .about-long-img {
+        width: 100%;
+        margin-top: 130px;
+    }
+    .about-long .about-long-area .about-long-item {
+        font-size: 16px;
+
+    }
+    .about-long .about-long-area h1 {
+        font-size: 35px;
+    }
+    .about-short .about-short-area p {
+        font-size: 16px;
+    }
+    .about-short .about-short-img {
+        width: 135%;
+        margin-top: 60px;
+    }
+    .eye-catcher h1 {
+        padding: 40px 0;
+    }
+    .eye-catcher .eye-catcher-btn {
+        padding: 35px 0;
+    }
+    .eye-catcher .btn-ghost {
+        padding: 10px 34px;
+        margin-bottom: 10px;
+    }
+    .contact .contact-item-box {
+        padding:0px;
+    }
+    .contact .form {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner h1 {
+        font-size: 46px;
+    }
+    .banner .mockup {
+        margin-top: 22px;
+        width: 100%;
+    }
+    .feature .feature-box p {
+        font-size: 16px;
+    }
+    .about-long .about-long-area {
+        padding: 20px 30px;
+    }
+    .about-short .about-short-img {
+        width: 120%;
+    }
+    .eye-catcher .btn {
+        margin-right: 22px;
+    }
+    .eye-catcher h1 {
+        padding: 36px 0;
+    }
+    .eye-catcher .eye-catcher-btn {
+        padding: 50px 0;
+    }
+    .pricings-plans .price-box {
+        margin: 0px;
+    }
+    .pricings-plans .price-box .body .price-box-details {
+        margin-bottom:10px;
+    }
+    .pricings-plans .price-box .body {
+        padding: 15px 5px;
+    }
+    .contact .form {
+        width: 80%;
+        margin-left: 12%;
+    }
+    .contact .contact-item-box {
+        padding: 0px 40px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
